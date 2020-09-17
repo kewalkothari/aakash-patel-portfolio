@@ -1,0 +1,287 @@
+body {
+    background-color: #231F20;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header {
+      height: 136px;
+      border-bottom: 5px solid #727275;
+      margin-bottom: 12px;
+  }
+
+  .header-logo {
+      height: 120px;
+      display: block;
+      margin: auto;
+      cursor: pointer;
+  }
+
+  .navigation-bar {
+    border-bottom: 5px solid #727275;
+    padding-bottom: 12px;
+    margin-bottom: 24px;
+    display: none;
+  }
+
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .nav-list li {
+      display: inline;
+      text-transform: uppercase;
+      font-weight: 800;
+      font-size: 1.5em;
+  }
+
+  .main-section-wrapper {
+      position: absolute;
+      top: 150px;
+      color: white;
+      width: 100%;
+  }
+
+  .text-block-1 {
+    width: 100%;
+    text-align: center;
+    margin: 36px 0px;
+  }
+
+  .main-magazines {
+      font-size: 2em;
+      text-transform: uppercase;
+      font-weight: 800;
+      margin: 24px;
+      vertical-align: text-top;
+  }
+
+  .magazine-title {
+    color: #E5B0FB;
+  }
+
+  .magazine-title:hover {
+    color: #A484D4;
+    cursor: pointer;
+  }
+
+  .main-spray-painting {
+      font-size: 3em;
+      text-transform: uppercase;
+      font-weight: 800;
+  }
+
+  .spray-painting-title {
+    color: #ABE4B7;
+  }
+
+  .spray-painting-title:hover {
+    color: #8DBC97;
+    cursor: pointer;
+  }
+
+  .main-about-me {
+    font-size: 6em;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: -7px;
+  }
+
+  .about-me-title {
+    color: #67EFFA;
+  }
+
+  .about-me-title:hover {
+    color: #54CEF6;
+    cursor: pointer;
+  }
+
+  .main-photography {
+    font-size: 3.5em;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 24px;
+    vertical-align: text-bottom;
+  }
+
+  .photography-title {
+    color: #FCF04F;
+  }
+
+  .photography-title:hover {
+    color: #B4DD47;
+    cursor: pointer;
+  }
+
+  .main-graphic-design {
+    font-size: 5em;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+
+  .graphic-design-title {
+    color: #DC452F;
+  }
+
+  .graphic-design-title:hover {
+    color: #972F1D;
+    cursor: pointer;
+  }
+
+  .main-print-making {
+    color: #243E8D;
+    font-size: 4.5em;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 24px;
+    vertical-align: text-bottom;
+  }
+
+  .print-making-title {
+    color: #243E8D;
+  }
+
+  .print-making-title:hover {
+    color: #17285B;
+    cursor: pointer;
+  }
+
+  .main-drawing {
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 24px;
+    vertical-align: top;
+  }
+
+  .drawing-title {
+    color: #F6BB89;
+  }
+
+  .drawing-title:hover {
+    color: #F18C79;
+    cursor: pointer;
+  }
+
+  .content-area {
+      display: none;
+      position: absolute;
+      top: 200px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      padding: 24px;
+  }
+
+  .content-block {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    margin: auto;
+    opacity: 0.8;
+    border-radius: 12px;
+    overflow-y: auto;
+    color: #bebec2;
+    box-sizing: border-box;
+    padding: 24px;
+  }
+
+  .marker {
+    margin: 24px 0;
+    width: 100%;
+    height: 20px;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    background-color: #727275;
+  }
+
+  .layer1 {
+    animation-name: example1;
+    animation-duration: 10s;
+  }
+
+  .layer2 {
+    animation-name: example2;
+    animation-duration: 12s;
+  }
+
+  .layer3 {
+    animation-name: example3;
+    animation-duration: 15s;
+  }
+
+  .layer4 {
+    animation-name: example4;
+    animation-duration: 9s;
+  }
+
+  .layer5 {
+    animation-name: example5;
+    animation-duration: 18s;
+  }
+
+  .layer6 {
+    animation-name: example6;
+    animation-duration: 16s;
+  }
+  
+  .block1 {
+    width: 30%;
+    height: 100%;
+    background-color: #727275;
+    display: inline-block;
+  }
+  
+  .block2 {
+    width: 30%;
+    height: 100%;
+    background-color: #231F20;
+    display: inline-block;
+  }
+  
+  .block3 {
+    width: 30%;
+    height: 100%;
+    background-color: #727275;
+    display: inline-block;
+  }
+  
+  @keyframes example1 {
+    0%   {left:-50%; top:0px;}
+    50% {left:50%; top:0px;}
+    100% {left:-50%; top:0px;}
+  }
+  
+  @keyframes example2 {
+    0%   {left:-25%; top:0px;}
+    50% {left:40%; top:0px;}
+    100% {left:-25%; top:0px;}
+  }
+  
+  @keyframes example3 {
+    0%   {left:-45%; top:0px;}
+    50% {left:70%; top:0px;}
+    100% {left:-45%; top:0px;}
+  }
+  @keyframes example4 {
+    0%   {left:-65%; top:0px;}
+    50% {left:30%; top:0px;}
+    100% {left:-65%; top:0px;}
+  }
+  @keyframes example5 {
+    0%   {left:-75%; top:0px;}
+    50% {left:20%; top:0px;}
+    100% {left:-75%; top:0px;}
+  }
+  @keyframes example6 {
+    0%   {left:0%; top:0px;}
+    50% {left:50%; top:0px;}
+    100% {left:0%; top:0px;}
+  }
