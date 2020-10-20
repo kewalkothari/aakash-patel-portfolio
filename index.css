@@ -79,6 +79,7 @@ body {
 
   .spray-painting-title {
     color: #ABE4B7;
+    display: none;
   }
 
   .spray-painting-title:hover {
@@ -180,11 +181,11 @@ body {
   }
 
   .content-block {
-    width: 100%;
+    width: 80%;
     height: 100%;
     background-color: black;
     margin: auto;
-    opacity: 0.8;
+    opacity: 1;
     border-radius: 12px;
     overflow-y: auto;
     color: #bebec2;
@@ -192,6 +193,14 @@ body {
     padding: 24px;
   }
 
+  .content-image {
+    width: auto;
+    height: 90%;
+    padding: 24px 0px;
+    margin: auto;
+    display: block;
+  }
+  
   .marker {
     margin: 24px 0;
     width: 100%;
