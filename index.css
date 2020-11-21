@@ -113,6 +113,7 @@ body {
 
   .photography-title {
     color: #FCF04F;
+    display: none;
   }
 
   .photography-title:hover {
@@ -163,6 +164,7 @@ body {
 
   .drawing-title {
     color: #F6BB89;
+    display: none;
   }
 
   .drawing-title:hover {
@@ -191,6 +193,8 @@ body {
     color: #bebec2;
     box-sizing: border-box;
     padding: 24px;
+    font-size: 18px;
+    line-height: 1.em;
   }
 
   .content-image {
